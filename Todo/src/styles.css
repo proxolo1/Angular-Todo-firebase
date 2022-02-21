@@ -1,0 +1,5 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #a11dc5 0%,#8d0694 48%,#490ec0 100%);
+  }
