@@ -1,0 +1,13 @@
+<div class="todo">
+    <input id="text" type="text" name="name" placeholder="add notes ...">
+<button (click)="send()">➕</button>
+</div>
+
+<div class="inbox">
+    <div class="item" *ngFor="let item of results">
+        <input id="checkbox" type="checkbox">
+        <p>{{item.title}}</p>
+        <small>{{item.date}}</small>
+        <!-- <button (click)="delete(item.title)">&#10006;</button> -->
+    </div>
+</div>
